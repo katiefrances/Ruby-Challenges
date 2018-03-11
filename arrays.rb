@@ -78,16 +78,14 @@ new_groceries = groceries.map do |grocery_item|
     end
     grocery_item
 end
-puts new_groceries.inspect # Shows pushed items at the end of the loop
 
-puts "There are #{new_groceries.length} items in your shopping cart"
+# puts new_groceries.inspect # Shows pushed items at the end of the loop
 
-# puts new_groceries.each do
-    
-# end
+# I know there's a more efficient way to do this, but for now it works!
 
+puts "There are #{new_groceries.length} items in your shopping cart:"
+puts "---------------------------------------"
+puts "Name: #{new_groceries[0][:name]}, Quantity: #{new_groceries[0][:quantity]}"
+puts "Name: #{new_groceries[1][:name]}, Quantity: #{new_groceries[1][:quantity]}"
+puts "Name: #{new_groceries[2][:name]}, Quantity: #{new_groceries[2][:quantity]}"
 
-# puts "Name: #{grocery_item_name} Quantity: #{grocery_item_qty}"
-# We want to add a nice key pair list eg :name, :quantity
-
-# TODO - sort hash with keys
