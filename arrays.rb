@@ -14,30 +14,30 @@
 # Mule
 # Dog
 
-# four_letter_animals = [ "Calf", "Duck", "Elephant", "Goat", "Lamb", "Lion", "Mule", "Dog" ]
+four_letter_animals = [ "Calf", "Duck", "Elephant", "Goat", "Lamb", "Lion", "Mule", "Dog" ]
 
 # Add Puma to the end of the array
-    # four_letter_animals.push("Puma")
+    four_letter_animals.push("Puma")
 
 # Insert Joey after Goat and before Lamb
-    # four_letter_animals.insert(4, 'Joey')
+    four_letter_animals.insert(4, 'Joey')
 
 # Delete Dog
-    # four_letter_animals.delete_at(7)
+    four_letter_animals.delete_at(7)
 
 # Reverse the order of the array
-    # four_letter_animals.reverse
+    four_letter_animals.reverse
 
 # Replace Elephant with Foal
-    # four_letter_animals[2] = "Foal"
+    four_letter_animals[2] = "Foal"
     
 # Add Bear to the end of the array
-    # four_letter_animals.push("Bear")
+    four_letter_animals.push("Bear")
 
  # Reverse the order of the array again
-    # four_letter_animals.reverse
+    four_letter_animals.reverse
 
-# puts four_letter_animals
+puts four_letter_animals
 
 # Beast Mode
 
@@ -82,7 +82,6 @@ end
 # puts new_groceries.inspect # Shows pushed items at the end of the loop
 
 # I know there's a more efficient way to do this, but for now it works!
-
 puts "There are #{new_groceries.length} items in your shopping cart:"
 puts "---------------------------------------"
 puts "Name: #{new_groceries[0][:name]}, Quantity: #{new_groceries[0][:quantity]}"
